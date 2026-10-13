@@ -1,0 +1,44 @@
+.construcao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.construcao__card {
+  max-width: 480px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e2e6ec;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+}
+
+.construcao__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.construcao__titulo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.625rem;
+}
+
+.construcao__descricao {
+  font-size: 0.9375rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.construcao__badge {
+  margin-bottom: 1.25rem;
+}
+
+.construcao__info {
+  font-size: 0.8125rem;
+  color: #9aa4b2;
+  line-height: 1.5;
+}

@@ -1,0 +1,42 @@
+.card-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.75rem;
+  background: #fff;
+  border: 1px solid #e2e6ec;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+  text-align: left;
+}
+
+.card-menu:hover {
+  border-color: #8eb6ff;
+  box-shadow: 0 8px 24px rgba(31, 72, 245, 0.12);
+  transform: translateY(-2px);
+}
+
+.card-menu__icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #eef4ff;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: #1f48f5;
+}
+
+.card-menu__titulo {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.card-menu__descricao {
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.5;
+}

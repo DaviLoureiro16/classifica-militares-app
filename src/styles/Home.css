@@ -1,0 +1,184 @@
+.home__hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+
+.home__hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home__hero-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 0.375rem 0.875rem;
+  background: #eef4ff;
+  color: #1f48f5;
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.home__hero-titulo {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1f2937;
+  letter-spacing: -0.02em;
+}
+
+.home__hero-subtitulo {
+  font-size: 1.125rem;
+  color: #6b7280;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.home__hero-cta {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.home__btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  transition: all 0.2s ease;
+}
+
+.home__btn--primario {
+  background: #1f48f5;
+  color: #fff;
+}
+
+.home__btn--primario:hover {
+  background: #1938e1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(31, 72, 245, 0.3);
+}
+
+.home__btn--secundario {
+  background: transparent;
+  color: #1f48f5;
+  border: 1px solid #c8cfd9;
+}
+
+.home__btn--secundario:hover {
+  background: #f0f2f5;
+  border-color: #8eb6ff;
+}
+
+.home__hero-info {
+  background: #fff;
+  border: 1px solid #e2e6ec;
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.home__hero-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.home__hero-lista li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: 0.9375rem;
+  color: #374151;
+}
+
+.home__hero-check {
+  color: #10b981;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.home__menu {
+  padding: 2.5rem 0;
+}
+
+.home__menu-titulo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.home__menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.home__concursos {
+  padding: 2rem 0 3rem;
+}
+
+.home__concursos-titulo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.home__concursos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.home__concurso-card {
+  background: #fff;
+  border: 1px solid #e2e6ec;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.home__concurso-card h3 {
+  font-size: 1.25rem;
+  color: #1f48f5;
+  margin-bottom: 0.375rem;
+}
+
+.home__concurso-card p {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.home__concurso-card--em-breve h3,
+.home__concurso-card--em-breve p {
+  color: #9aa4b2;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .home__hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .home__hero-titulo {
+    font-size: 2.25rem;
+  }
+
+  .home__hero-subtitulo {
+    font-size: 1rem;
+  }
+
+  .home__hero-cta {
+    flex-direction: column;
+  }
+
+  .home__hero-info {
+    padding: 1.25rem;
+  }
+}
